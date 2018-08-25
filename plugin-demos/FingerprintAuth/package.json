@@ -1,6 +1,6 @@
 {
     "nativescript": {
-        "id": "org.nativescript.FingerprintAuth",
+        "id": "com.clientsidecourses.nativescript.plugins.FingerprintAuth",
         "tns-android": {
             "version": "4.2.0"
         },
