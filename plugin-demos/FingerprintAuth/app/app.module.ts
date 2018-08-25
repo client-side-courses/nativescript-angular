@@ -7,6 +7,8 @@ import { ItemService } from "./item/item.service";
 import { ItemsComponent } from "./item/items.component";
 import { ItemDetailComponent } from "./item/item-detail.component";
 
+import { FingerprintGuard } from "~/core/guards/fingerprint-guard";
+
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
 
@@ -27,7 +29,9 @@ import { ItemDetailComponent } from "./item/item-detail.component";
         ItemDetailComponent
     ],
     providers: [
-        ItemService
+        ItemService,
+
+        FingerprintGuard
     ],
     schemas: [
         NO_ERRORS_SCHEMA
