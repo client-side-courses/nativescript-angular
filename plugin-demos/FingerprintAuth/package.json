@@ -8,9 +8,15 @@
             "version": "4.2.0"
         }
     },
-    "description": "NativeScript Application",
-    "license": "SEE LICENSE IN <your-license-filename>",
-    "repository": "<fill-your-repository-here>",
+    "author": {
+        "email": "hello@clientsidecourses.com",
+        "name": "Client-Side Courses",
+        "url": "https://clientsidecourses.com"
+    },
+    "description": "Plugin Demos: Fingerprint Auth",
+    "homepage": "https://clientsidecourses.com",
+    "license": "SEE LICENSE IN LICENSE",
+    "repository": "https://github.com/client-side-courses/nativescript-angular.git",
     "dependencies": {
         "@angular/animations": "~6.1.0",
         "@angular/common": "~6.1.0",
@@ -32,5 +38,5 @@
         "typescript": "~2.7.2",
         "nativescript-dev-typescript": "~0.7.0"
     },
-    "readme": "NativeScript Application"
+    "readme": "Plugin Demos: Fingerprint Auth"
 }
